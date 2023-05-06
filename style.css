@@ -213,14 +213,13 @@ body{
     overflow: hidden;
 }
 .hero-image .main-img{
-    height:130%;
+    height: 95%;
     width: auto;
     z-index: 2;
     animation: hero-img 1s ease forwards;
     position: relative;
-    /* left: -150px; */
-    right: -250px;
-    top: -10px;
+    left: -50px;
+   
 }
 .hero-image .bg-img{
     position: absolute;
