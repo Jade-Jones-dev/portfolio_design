@@ -202,6 +202,34 @@ body{
     box-shadow: 4px 4px 5px #FF006675, 8px 8px 10px #FF006650 , 10px 10px 15px #FF006625;
 }
 
+/* hero image  */
+.hero-image{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+.hero-image .main-img{
+    height:130%;
+    width: auto;
+    z-index: 2;
+    animation: hero-img 1s ease forwards;
+    position: relative;
+    /* left: -150px; */
+    right: -250px;
+    top: -10px;
+}
+.hero-image .bg-img{
+    position: absolute;
+    height: 70%;
+    bottom: 0;
+    z-index:1;
+    animation: hero-img-bg 1s ease forwards;
+}
+
 /* responsive design  */
 @media (max-width:768px) {
     :root{
