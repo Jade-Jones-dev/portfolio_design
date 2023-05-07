@@ -6,7 +6,7 @@ themeChangeIcon.addEventListener("click", function(){
     if(document.body.classList.contains("dark-theme")){
         themeChangeIcon.classList.remove("fa-moon")
         themeChangeIcon.classList.add("fa-sun")
-    } else{
+    } else {
         themeChangeIcon.classList.remove("fa-sun")
         themeChangeIcon.classList.add("fa-moon")
     }
