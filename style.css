@@ -147,6 +147,13 @@ body {
 	width: 90%;
 }
 
+/* theme change icon  */
+.theme-change{
+    cursor: pointer;
+    color: var(--mainTxtColor);
+    animation: navbar 5s ease forwards;
+}
+
 /* hero section  */
 .hero-section {
 	height: calc(100vh - 130px);
