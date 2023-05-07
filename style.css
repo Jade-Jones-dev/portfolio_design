@@ -216,7 +216,7 @@ body {
 	height: 95%;
 	width: auto;
 	z-index: 2;
-	animation: hero-img 1s ease forwards;
+	animation: hero-img 2.5s ease forwards;
 	position: relative;
 	left: -50px;
 }
@@ -225,12 +225,12 @@ body {
 	height: 70%;
 	bottom: 0;
 	z-index: 1;
-	animation: hero-img-bg 1s ease forwards;
+	animation: hero-img-bg 2.5s ease forwards;
 }
 
 .social-icon-list {
 	position: absolute;
-	bottom: 30px;
+	bottom: 0;
 	left: -10px;
 	height: auto;
 	width: 200px;
@@ -238,7 +238,6 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	transform: translateY(100%);
-	/* opacity: 0; */
 	animation: social-icon 2s ease forwards;
 	animation-delay: 1s;
 	z-index: 999;
@@ -331,11 +330,52 @@ body {
 /* keyframes  */
 /* header navbar  */
 @keyframes navbar {
-	0% {
-		transform: translateY(-100%);
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* hero content  */
+@keyframes hero-content {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* hero image  */
+@keyframes hero-img {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* hero background image  */
+@keyframes hero-img-bg {
+    0%{
+        transform: scale(0)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* social icon list  */
+@keyframes social-icon {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
