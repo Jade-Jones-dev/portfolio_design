@@ -284,7 +284,7 @@ body {
 	justify-content: space-between;
 	transform: translateY(100%);
 	animation: social-icon 2s ease forwards;
-	animation-delay: 1s;
+	/* animation-delay: 1s; */
 	z-index: 999;
 }
 
