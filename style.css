@@ -273,6 +273,43 @@ body {
 	background-color: var(--secondaryColor);
 }
 
+.pages-social-icon-list {
+	position: absolute;
+	bottom: 20px;
+	/* left: -10px; */
+	height: auto;
+	width: 200px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	transform: translateY(100%);
+	animation: social-icon 2s ease forwards;
+	animation-delay: 1s;
+	z-index: 999;
+}
+
+.pages-social-icon-list i {
+	font-size: 3rem;
+	padding: 0 15px;
+	color: var(--socialIconColor);
+	position: relative;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+.pages-social-icon-list i:hover {
+	font-size: 3.5rem;
+	transform: translateY(-10px);
+}
+.pages-social-icon-list i:hover::after {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 45%;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: var(--secondaryColor);
+}
 /* responsive design  */
 @media (max-width: 768px) {
 	:root {
