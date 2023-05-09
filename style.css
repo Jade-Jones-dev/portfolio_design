@@ -235,6 +235,8 @@ body {
 	animation: hero-img-bg 2.5s ease forwards;
 }
 
+/* home page social icons  */
+
 .social-icon-list {
 	position: absolute;
 	bottom: 0;
@@ -272,6 +274,8 @@ body {
 	border-radius: 50%;
 	background-color: var(--secondaryColor);
 }
+
+/* social icons for other pages  */
 
 .pages-social-icon-list {
 	position: absolute;
