@@ -55,6 +55,10 @@ body {
 
 }
 
+.badge-section{
+	padding:20px;
+}
+
 .badges{
 	height: calc(100vh - 130px);
 	width: 100vw;
