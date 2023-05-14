@@ -233,25 +233,9 @@ body {
 	box-shadow: 4px 4px 5px #ff006675, 8px 8px 10px #ff006650, 10px 10px 15px #ff006625;
 }
 
-.submit-btn {
-	height: 50px;
-	width: 100%;
-}
-.submit-btn button {
-	height: 100%;
-	width: 50%;
-	background-color: var(--secondaryColor);
-	border: none;
-	border-radius: 20px;
-	color: var(--btnTxtColor);
-	font-size: var(--fs-hero-btn);
-	font-weight: var(--fw-hero-btn);
-	cursor: pointer;
-	transition: all 0.5s ease;
-}
-.submit-btn button:hover {
-	transform: translateY(-5px);
-	box-shadow: 4px 4px 5px #ff006675, 8px 8px 10px #ff006650, 10px 10px 15px #ff006625;
+
+.hero-content .form{
+	padding: 20px;
 }
 
 /* hero image  */
