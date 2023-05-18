@@ -50,12 +50,11 @@ body {
 .badge{
 	height:50px;
 	border-radius:15px;
-	margin:10px;
+	margin:2px;
 }
 
 .badge-section{
 	padding-bottom:20px;
-	padding-top:20px;
 	display:flex;
 	align-content: space-between;
 	margin-left: -10px;
@@ -70,6 +69,10 @@ body {
 	align-items: left;
 	justify-content: left;
 	position: relative;
+}
+
+.skills-heading{
+	margin-top:20px;
 }
 
 .home-page {
