@@ -221,7 +221,7 @@ body {
 	padding-bottom:20px;
 	display:flex;
 	align-content: space-between;
-	margin-left: -10px;
+	
 }
 
 .badges{
@@ -235,8 +235,8 @@ body {
 	position: relative;
 }
 
-.skills-heading{
-	margin-top:20px;
+h2{
+	margin: 10px 0;
 }
 
 /* contact page */
