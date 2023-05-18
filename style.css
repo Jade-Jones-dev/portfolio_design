@@ -227,6 +227,16 @@ body {
 	position: relative;
 	left: -50px;
 }
+
+.hero-image .contact-main-img {
+	height: 65%;
+	width: auto;
+	z-index: 2;
+	animation: hero-img 2.5s ease forwards;
+	position: relative;
+
+	top:-120px;
+}
 .hero-image .bg-img {
 	position: absolute;
 	height: 70%;
