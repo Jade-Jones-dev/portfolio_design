@@ -47,34 +47,6 @@ body {
 	font-family: "Poppins";
 }
 
-.badge{
-	height:50px;
-	border-radius:15px;
-	margin:2px;
-}
-
-.badge-section{
-	padding-bottom:20px;
-	display:flex;
-	align-content: space-between;
-	margin-left: -10px;
-}
-
-.badges{
-	height: calc(100vh - 130px);
-	/* width: 100vw;
-	padding: 100px; */
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: left;
-	position: relative;
-}
-
-.skills-heading{
-	margin-top:20px;
-}
-
 .home-page {
 	min-height: 100vh;
 	width: 100%;
@@ -237,6 +209,37 @@ body {
 	box-shadow: 4px 4px 5px #ff006675, 8px 8px 10px #ff006650, 10px 10px 15px #ff006625;
 }
 
+/* skills page */
+
+.badge{
+	height:50px;
+	border-radius:15px;
+	margin:2px;
+}
+
+.badge-section{
+	padding-bottom:20px;
+	display:flex;
+	align-content: space-between;
+	margin-left: -10px;
+}
+
+.badges{
+	height: calc(100vh - 130px);
+	/* width: 100vw;
+	padding: 100px; */
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	position: relative;
+}
+
+.skills-heading{
+	margin-top:20px;
+}
+
+/* contact page */
 
 form{
 	padding: 0px 0;
