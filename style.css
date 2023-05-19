@@ -58,17 +58,6 @@ body {
 	overflow: hidden;
 }
 
-.projects-page {
-	min-height: 100vh;
-	width: 100%;
-	padding: 40px 140px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	overflow: hidden;
-}
-
 /* header section  */
 .header-section {
 	height: 50px;
@@ -79,6 +68,7 @@ body {
 	font-weight: var(--fw-header);
 	overflow: hidden;
 }
+
 /* header logo  */
 .header-logo {
 	opacity: 0;
@@ -86,6 +76,7 @@ body {
 	animation-delay: 1s;
 	color: var(--mainTxtColor);
 }
+
 .header-logo span {
 	color: var(--secondaryColor);
 }
@@ -97,46 +88,56 @@ body {
 	display: inline-flex;
 	justify-content: space-between;
 }
+
 .header-nav-list {
 	height: 100%;
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
 }
+
 .header-nav-list > li {
 	transform: translateY(-200%);
 	list-style-type: none;
 	opacity: 0;
 }
+
 .header-nav-list > li:nth-child(1) {
 	animation: navbar 0.5s ease forwards;
 	animation-delay: 1s;
 }
+
 .header-nav-list > li:nth-child(2) {
 	animation: navbar 0.5s ease forwards;
 	animation-delay: 1.5s;
 }
+
 .header-nav-list > li:nth-child(3) {
 	animation: navbar 0.5s ease forwards;
 	animation-delay: 2s;
 }
+
 .header-nav-list > li:nth-child(4) {
 	animation: navbar 0.5s ease forwards;
 	animation-delay: 2.5s;
 }
+
 .header-nav-list > li:nth-child(5) {
 	animation: navbar 0.5s ease forwards;
 	animation-delay: 3s;
 }
+
 .header-nav-list > li > a {
 	text-decoration: none;
 	position: relative;
 	transition: all 0.5s ease;
 	color: var(--mainTxtColor);
 }
+
 .header-nav-list > li > a:hover {
 	color: var(--secondaryColor);
 }
+
 .header-nav-list > li > a::after {
 	content: "";
 	position: absolute;
@@ -148,12 +149,15 @@ body {
 	background-color: #ff0066;
 	transition: all 0.5s ease;
 }
+
 .header-nav-list > li > a:hover::after {
 	width: 90%;
 }
+
 .header-nav-list li.active a {
 	color: var(--secondaryColor);
 }
+
 .header-nav-list > li.active > a::after {
 	width: 90%;
 }
