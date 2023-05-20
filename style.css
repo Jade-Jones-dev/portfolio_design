@@ -654,6 +654,10 @@ height:80%;
 	
 }
 
+a{
+	text-decoration: none;
+}
+
 
 /* responsive design  */
 @media (max-width: 768px) {
