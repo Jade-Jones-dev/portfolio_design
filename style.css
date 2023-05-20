@@ -568,6 +568,7 @@ height:80%;
 
 .card-image{
 	width:350px;
+	margin: 20px 0;
 }
 
 /* individual-projects-pages */
@@ -656,6 +657,7 @@ height:80%;
 
 a{
 	text-decoration: none;
+	color:var(--primaryColor)
 }
 
 
