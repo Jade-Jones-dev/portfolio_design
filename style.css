@@ -644,7 +644,6 @@ form label {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* position: relative; */
 	overflow: hidden;
 	padding: 0;
 }
@@ -652,7 +651,7 @@ form label {
 .projects-pages-hero-image .about-main-img {
 	height: 80%;
 	/* width: 600px; */
-	z-index: 2;
+	padding:20px;
 	animation: hero-img 2.5s ease forwards;
 	position: relative;
 }
