@@ -576,17 +576,17 @@ form label {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-items: center;
 	position: relative;
 }
 
 .project-pages-hero-content {
-	height: 100%;
-	width: 100%;
-	padding-top: 80px;
+	/* height: 100%; */
+	width: 400px;
+	/* padding-top: 80px; */
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: space-around;
 	color: var(--mainTxtColor);
 	animation: hero-content 1s ease forwards;
@@ -595,6 +595,7 @@ form label {
 .projects-pages-hero-content .content-header {
 	font-size: var(--fs-hero-header);
 	font-weight: var(--fw-hero-header);
+	color:var(--mainTxtColor);
 }
 
 .projects-pages-hero-content .content-header span {
@@ -603,8 +604,10 @@ form label {
 
 .projects-pages-hero-content .content-body {
 	padding: 0 40px 0 0;
+	width:600px;
 	font-size: var(--fs-hero-body);
 	font-weight: var(--fw-hero-body);
+	color:var(--mainTxtColor);
 }
 
 .projects-pages-btn {
@@ -648,7 +651,7 @@ form label {
 
 .projects-pages-hero-image .about-main-img {
 	height: 80%;
-	width: auto;
+	/* width: 600px; */
 	z-index: 2;
 	animation: hero-img 2.5s ease forwards;
 	position: relative;
