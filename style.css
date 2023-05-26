@@ -747,6 +747,7 @@ a {
 		display: none;
 		transform: translateX(200%);
 		transition: all 1s ease;
+		
 	}
 	.header-nav-list > li > a:hover {
 		color: var(--btnTxtColor);
@@ -760,6 +761,25 @@ a {
 	.header-nav-list li.active a {
 		color: var(--btnTxtColor);
 	}
+
+	.hero-section{
+		flex-direction: column;
+	}
+
+	
+	/* .projects-pages-hero-section{
+		flex-direction: column;
+	}
+	.project-pages-hero-content{
+		width:40%;
+		padding:20px;
+		flex-direction: column;
+
+	}
+
+	.projects-pages-hero-image{
+		width:90vw;
+	} */
 }
 
 /* keyframes  */
