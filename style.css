@@ -351,6 +351,45 @@ body {
 }
 
 /* skills page */
+
+.skills-hero-section {
+	height: calc(100vh - 200px);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	position: relative;
+	color: var(--mainTxtColor);
+	margin-bottom: 20px;;
+}
+
+.skills-hero-content {
+	height: 100%;
+	width: 45%;
+	padding: 150px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	color: var(--mainTxtColor);
+	animation: hero-content 1s ease forwards;
+}
+
+.skills-hero-content .content-header {
+	font-size: var(--fs-hero-header);
+	font-weight: var(--fw-hero-header);
+	width:100vw;
+}
+
+.skills-hero-content .content-header span {
+	color: var(--heroContentSpanColor);
+}
+
+.skills-hero-content .content-body {
+	padding: 0 40px 0 0;
+	font-size: var(--fs-hero-body);
+	font-weight: var(--fw-hero-body);
+}
 .badge {
 	height: 50px;
 	border-radius: 15px;
@@ -372,6 +411,7 @@ body {
 	align-items: left;
 	justify-content: left;
 	position: relative;
+	margin-bottom: 30px;
 }
 
 h2 {
