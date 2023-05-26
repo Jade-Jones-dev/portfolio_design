@@ -786,18 +786,18 @@ a {
 	}
 	.hero-btn {
 		margin-top: 20px;
-		height:150px;
+		height: 150px;
 	}
 
-	.hero-btn button{
+	.hero-btn button {
 		height: 50px;
 	}
 
-	.hero-section .content-header{
+	.hero-section .content-header {
 		font-size: var(--fs-header);
 	}
 
-	.hero-section .content-body{
+	.hero-section .content-body {
 		padding: 15px 0;
 		font-size: larger;
 	}
@@ -810,7 +810,7 @@ a {
 		height: 70%;
 		width: 90%;
 		overflow: visible;
-		padding:5px;
+		padding: 5px;
 	}
 	.hero-image .main-img {
 		height: 80%;
@@ -821,45 +821,55 @@ a {
 	}
 
 	/* projects page */
-	/* hero section  */
+
 	.projects-hero-section {
 		flex-direction: column;
-		padding-top: 0;
-		margin-top: 170px;
+		padding:0;
+		height:100%;
+		margin-bottom: 60px;
 	}
 	.projects-hero-content {
 		/* height: 35%; */
 		width: 100%;
 		/* padding: 10px; */
-	
 	}
 
-	.projects-content-header{
-		margin-left:-10px;
+	.projects-content-header {
+		margin-left: -10px;
+		
 	}
 
-.cards{
-	flex-direction: column;
-justify-content: center;
-	
-	
-}
+	.card-text{
+		padding-bottom: 10px;
+	}
 
-.card{
-	height:300px;
-	width:100%;
-	margin: 20px auto;
-	padding: 20px;
-}
+	.cards {
+		flex-direction: column;
+		justify-content: center;
+	}
 
-.card-image{
-	width: 80%;
-}
-	.projects-hero-section .content-header{
+	.card {
+		height: 220px;
+		width: 95%;
+		margin: 5px auto;
+		padding: 20px;
+	}
+
+	.card-image {
+		height: 60%;
+		width: auto;
+		padding: 0;
+	}
+
+	.card-title{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.projects-hero-section .content-header {
 		font-size: var(--fs-header);
 	}
 
-	.projects-hero-section .content-body{
+	.projects-hero-section .content-body {
 		padding: 15px 0;
 		font-size: larger;
 	}
@@ -875,7 +885,7 @@ justify-content: center;
 		font-size: 3.5rem;
 	}
 	.social-icon-list i:hover {
-		font-size:4rem;
+		font-size: 4rem;
 		transform: translateX(10px);
 	}
 	.social-icon-list i:hover::after {
@@ -888,8 +898,6 @@ justify-content: center;
 		border-radius: 50%;
 		background-color: var(--secondaryColor);
 	}
-
-
 }
 
 /* keyframes  */
