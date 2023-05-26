@@ -777,6 +777,7 @@ a {
 	/* hero section  */
 	.hero-section {
 		flex-direction: column;
+		padding-top: 20px;
 	}
 	.hero-content {
 		height: 35%;
@@ -785,7 +786,7 @@ a {
 		z-index: 99;
 	}
 	.hero-btn {
-		margin-top: 20px;
+		margin-top: 10px;
 		height: 150px;
 	}
 
@@ -807,7 +808,7 @@ a {
 		position: absolute;
 		right: 0;
 		bottom: 0;
-		height: 70%;
+		height: 68%;
 		width: 90%;
 		overflow: visible;
 		padding: 5px;
