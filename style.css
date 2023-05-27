@@ -37,11 +37,13 @@
 	--fw-hero-body: 400;
 	--fw-hero-btn: 700;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: var(--primaryColor);
 	font-family: "Poppins";
@@ -404,15 +406,12 @@ body {
 }
 
 .badge-section {
-	/* padding-bottom: 20px; */
 	display: flex;
 	align-content: space-between;
 }
 
 .badges {
 	height: calc(100vh - 130px);
-	/* width: 100vw;
-	padding: 100px; */
 	display: flex;
 	flex-direction: column;
 	align-items: left;
@@ -426,6 +425,7 @@ h2 {
 }
 
 /* contact page */
+
 form {
 	padding: 0px 0;
 }
@@ -479,8 +479,6 @@ form label {
 	padding-top: 80px;
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start;
-	justify-content: space-around; */
 	color: var(--mainTxtColor);
 	animation: hero-content 1s ease forwards;
 }
@@ -525,13 +523,13 @@ form label {
 }
 
 /* about hero image  */
+
 .about-hero-image {
 	height: 80%;
 	width: 80%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	
+	justify-content: center;	
 	overflow: hidden;
 	padding: 0;
 }
@@ -545,6 +543,7 @@ form label {
 }
 
 /* projects */
+
 .projects-page {
 	min-height: 100vh;
 	width: 100%;
@@ -628,9 +627,7 @@ form label {
 }
 
 .project-pages-hero-content {
-	/* height: 100%; */
 	width: 400px;
-	/* padding-top: 80px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -685,6 +682,7 @@ form label {
 }
 
 /* about hero image  */
+
 .projects-pages-hero-image {
 	height: 80%;
 	width: 600px;
@@ -697,7 +695,6 @@ form label {
 
 .projects-pages-hero-image .about-main-img {
 	height: 80%;
-	/* width: 600px; */
 	padding: 20px;
 	animation: hero-img 2.5s ease forwards;
 	position: relative;
@@ -709,6 +706,7 @@ a {
 }
 
 /* responsive design  */
+
 @media (max-width: 768px) {
 	:root {
 		/* texts */
@@ -717,6 +715,7 @@ a {
 		--fs-hero-body: 16px;
 		--fs-hero-btn: 16px;
 	}
+
 	.dark-theme {
 		/* texts */
 		--fs-header: 24px;
@@ -724,6 +723,7 @@ a {
 		--fs-hero-body: 16px;
 		--fs-hero-btn: 16px;
 	}
+
 	.home-page {
 		padding: 20px 10px;
 		position: relative;
@@ -735,15 +735,19 @@ a {
 		position: relative;
 		overflow: hidden;
 	}
+
 	/* header naviagation  */
+
 	.header-nav {
 		justify-content: flex-end;
 	}
+
 	/* mobile navigation icon  */
 	.mobile-nav-icon {
 		display: block;
 		padding-right: 10px;
 	}
+
 	/* mobile navigation list  */
 	.header-nav-list {
 		height: 400px;
@@ -761,30 +765,37 @@ a {
 		transform: translateX(200%);
 		transition: all 1s ease;
 	}
+
 	.header-nav-list > li > a:hover {
 		color: var(--btnTxtColor);
 	}
+
 	.header-nav-list > li > a::after {
 		background-color: var(--btnTxtColor);
 	}
+
 	.header-nav-list > li > a:hover::after {
 		width: 90%;
 	}
+
 	.header-nav-list li.active a {
 		color: var(--btnTxtColor);
 	}
 
 	/* hero section  */
+
 	.hero-section {
 		flex-direction: column;
 		padding-top: 20px;
 	}
+
 	.hero-content {
 		height: 35%;
 		width: 100%;
 		padding: 10px;
 		z-index: 99;
 	}
+
 	.hero-btn {
 		margin-top: 10px;
 		height: 150px;
@@ -804,6 +815,7 @@ a {
 	}
 
 	/* hero image  */
+
 	.hero-image {
 		position: absolute;
 		right: 0;
@@ -813,10 +825,12 @@ a {
 		overflow: visible;
 		padding: 5px;
 	}
+
 	.hero-image .main-img {
 		height: 80%;
 		left: 3px;
 	}
+
 	.hero-image .bg-img {
 		height: 50%;
 	}
@@ -830,14 +844,11 @@ a {
 		margin-bottom: 60px;
 	}
 	.projects-hero-content {
-		/* height: 35%; */
 		width: 100%;
-		/* padding: 10px; */
 	}
 
 	.projects-content-header {
 		margin-left: -10px;
-		
 	}
 
 	.card-text{
@@ -866,6 +877,7 @@ a {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
+
 	.projects-hero-section .content-header {
 		font-size: var(--fs-header);
 	}
@@ -876,19 +888,23 @@ a {
 	}
 
 	/* social icon list  */
+
 	.social-icon-list {
 		flex-direction: column;
 		left: 0;
 		width: fit-content;
 	}
+
 	.social-icon-list i {
 		padding: 10px 0;
 		font-size: 3.5rem;
 	}
+
 	.social-icon-list i:hover {
 		font-size: 4rem;
 		transform: translateX(10px);
 	}
+
 	.social-icon-list i:hover::after {
 		content: "";
 		position: absolute;
@@ -902,6 +918,7 @@ a {
 }
 
 /* keyframes  */
+
 /* header navbar  */
 @keyframes navbar {
 	0% {
