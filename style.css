@@ -792,7 +792,7 @@ a {
 	.hero-content {
 		height: 35%;
 		width: 100%;
-		padding: 10px;
+		padding:10px 0;
 		z-index: 99;
 	}
 
