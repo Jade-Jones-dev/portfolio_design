@@ -71,6 +71,17 @@ body {
 	overflow: hidden;
 }
 
+.contact-page {
+	min-height: 100vh;
+	width: 100%;
+	padding: 40px 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
 /* header section  */
 .header-section {
 	height: 50px;
@@ -436,7 +447,6 @@ h2 {
 }
 
 /* contact page */
-/* hero section  */
 .contact-hero-section {
 	height: calc(100vh - 130px);
 	width: 100%;
@@ -446,7 +456,6 @@ h2 {
 	position: relative;
 }
 
-/* hero content   */
 .contact-hero-content {
 	height: 100%;
 	width: 45%;
@@ -474,30 +483,6 @@ h2 {
 	font-weight: var(--fw-hero-body);
 }
 
-.hero-btn {
-	height: 50px;
-	width: 100%;
-}
-
-.hero-btn button {
-	height: 100%;
-	width: 50%;
-	background-color: var(--secondaryColor);
-	border: none;
-	border-radius: 20px;
-	color: var(--btnTxtColor);
-	font-size: var(--fs-hero-btn);
-	font-weight: var(--fw-hero-btn);
-	cursor: pointer;
-	transition: all 0.5s ease;
-}
-
-.hero-btn button:hover {
-	transform: translateY(-5px);
-	box-shadow: 4px 4px 5px #ff006675, 8px 8px 10px #ff006650, 10px 10px 15px #ff006625;
-}
-
-/* hero image  */
 .contact-hero-image {
 	height: 100%;
 	width: 55%;
@@ -545,6 +530,11 @@ input {
 
 form label {
 	margin: 10px 0;
+}
+
+#message{
+	width:400px;
+	height:150px;
 }
 
 .contact-btn {
@@ -1083,6 +1073,88 @@ a {
 		border-radius: 50%;
 		background-color: var(--secondaryColor);
 	}
+
+	.pages-social-icon-list {
+		bottom: 0;
+		width: 100%;
+margin-top:100px;
+		padding: 20px;
+	}
+
+
+
+		/* contact section  */
+
+
+.contact-page {
+		padding: 20px 10px;
+		position: relative;
+		
+	}
+/* 
+
+
+	.contact-page .social-icon-list{
+		padding-top: 30px;
+	} */
+		.contact-hero-section {
+			flex-direction: column-reverse;
+			height:90vh;
+			/* padding-top: 80px; */
+			align-content: center;
+			justify-content: center;
+			margin: 0;
+
+		}
+	
+		.contact-hero-content {
+			/* height: 40%; */
+			width: 100%;
+			padding: 10px 0;
+			z-index: 99;
+			margin: 50px 0;
+		}
+	
+		.contact-hero-btn {
+			margin-top: 10px;
+			height: 150px;
+			margin-bottom: 0;
+		}
+	
+		.contact-hero-btn button {
+			height: 50px;
+		}
+	
+		.contact-hero-content .content-header {
+			font-size: var(--fs-header);
+			margin-top:50px;
+		}
+	
+		.contact-hero-section .content-body {
+			padding: 15px 0;
+			font-size: larger;
+		}
+	
+	
+
+
+
+		input{
+			width:95vw;
+			margin: 0 4px;
+		}
+
+		label{
+			padding:2px;
+		}
+
+	#message{
+width:95vw;
+height:30vh;
+margin-bottom: 2px;
+		}
+
+
 }
 
 /* keyframes  */
