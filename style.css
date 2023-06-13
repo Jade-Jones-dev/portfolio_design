@@ -436,6 +436,103 @@ h2 {
 }
 
 /* contact page */
+/* hero section  */
+.contact-hero-section {
+	height: calc(100vh - 130px);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+/* hero content   */
+.contact-hero-content {
+	height: 100%;
+	width: 45%;
+	padding: 150px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	color: var(--mainTxtColor);
+	animation: hero-content 1s ease forwards;
+}
+
+.contact-hero-content .content-header {
+	font-size: var(--fs-hero-header);
+	font-weight: var(--fw-hero-header);
+}
+
+.contact-hero-content .content-header span {
+	color: var(--heroContentSpanColor);
+}
+
+.contact-hero-content .content-body {
+	padding: 0 40px 0 0;
+	font-size: var(--fs-hero-body);
+	font-weight: var(--fw-hero-body);
+}
+
+.hero-btn {
+	height: 50px;
+	width: 100%;
+}
+
+.hero-btn button {
+	height: 100%;
+	width: 50%;
+	background-color: var(--secondaryColor);
+	border: none;
+	border-radius: 20px;
+	color: var(--btnTxtColor);
+	font-size: var(--fs-hero-btn);
+	font-weight: var(--fw-hero-btn);
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.hero-btn button:hover {
+	transform: translateY(-5px);
+	box-shadow: 4px 4px 5px #ff006675, 8px 8px 10px #ff006650, 10px 10px 15px #ff006625;
+}
+
+/* hero image  */
+.contact-hero-image {
+	height: 100%;
+	width: 55%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	position: relative;
+	overflow: hidden;
+}
+
+.contact-hero-image .main-img {
+	height: 95%;
+	width: auto;
+	z-index: 2;
+	animation: hero-img 2.5s ease forwards;
+	position: relative;
+	left: -50px;
+}
+
+.contact-hero-image .main-img {
+	height: 65%;
+	width: auto;
+	z-index: 2;
+	animation: hero-img 2.5s ease forwards;
+	position: relative;
+	top: -120px;
+}
+
+.contact-hero-image .bg-img {
+	position: absolute;
+	height: 70%;
+	bottom: 0;
+	z-index: 1;
+	animation: hero-img-bg 2.5s ease forwards;
+}
 
 form {
 	padding: 0px 0;
